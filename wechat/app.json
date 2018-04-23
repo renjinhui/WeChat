@@ -11,9 +11,10 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "color": "#515151",
+    "selectedColor": "#5072d4",
     "borderStyle": "white",
+    "backgroundColor": "rgba(0,0,0,0.5)",
     "list": [
       {
         "selectedIconPath": "images/index2.png",
@@ -31,7 +32,7 @@
         "selectedIconPath": "images/user2.png",
         "iconPath": "images/user.png",
         "pagePath": "pages/page1/test1",
-        "text": "开心测试"
+        "text": "个人中心"
       }
     ]
   }

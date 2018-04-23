@@ -18,8 +18,7 @@ Page({
   },
   show: function(e){
     // wx.showToast({
-    //   title: '成功',
-    //   icon: 'success',
+    //   title: '点我也没用~~哈哈哈',
     //   duration: 2000
     // })
     // wx.setNavigationBarTitle({
@@ -32,6 +31,17 @@ Page({
     // wx.navigateTo({
     //   url: 'test?id=1'
     // })
+    wx.showModal({
+      title: '忽悠你',
+      content: '点我也没啥用',
+      success: function (res) {
+        if (res.confirm) {
+          console.log('用户点击确定')
+        } else if (res.cancel) {
+          console.log('用户点击取消')
+        }
+      }
+    })
   },
   hide: function () {
     this.setData({
